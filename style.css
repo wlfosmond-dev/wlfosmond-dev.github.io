@@ -28,6 +28,61 @@ a:hover {
     max-width: 800px;
     margin: 0 auto;
 }
+/* THEME TOGGLE BUTTON */
+.theme-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    background: #1f2937;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    padding: 8px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    z-index: 1000;
+}
+
+.theme-toggle:hover {
+    background: #374151;
+}
+
+/* LIGHT MODE THEME */
+.light-mode {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.light-mode .hero {
+    background: radial-gradient(circle at top left, #93c5fd, #dbeafe);
+    color: #111827;
+}
+
+.light-mode .card,
+.light-mode .tool-card {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    color: #111827;
+}
+
+.light-mode .skills-matrix {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+}
+
+.light-mode .skills-category {
+    background: #e5e7eb;
+    color: #111827;
+    border-right: 1px solid #d1d5db;
+}
+
+.light-mode .skills-items {
+    color: #111827;
+}
+
+.light-mode a {
+    color: #2563eb;
+}
 
 .hero h1 {
     font-size: 2.7rem;

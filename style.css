@@ -125,3 +125,35 @@ ul {
     color: #9ca3af;
     background: #020617;
 }
+.skills-matrix {
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #020617;
+}
+
+.skills-row {
+    display: flex;
+    border-top: 1px solid #1f2937;
+}
+
+.skills-row:first-child {
+    border-top: none;
+}
+
+.skills-category {
+    flex: 0 0 140px;
+    padding: 10px 12px;
+    background: #030712;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #e5e7eb;
+    border-right: 1px solid #1f2937;
+}
+
+.skills-items {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    color: #d1d5db;
+}

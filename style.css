@@ -248,3 +248,18 @@ ul {
     border-radius: 50%;
     border: 2px solid #1f2937;
 }
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project-images img {
+    width: 45%;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    object-fit: cover;
+}

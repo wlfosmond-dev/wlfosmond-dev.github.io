@@ -236,4 +236,15 @@ ul {
     color: #cbd5e1;
     margin-top: 6px;
 }
+.profile-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #1f2937;
+}
